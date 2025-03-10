@@ -1,7 +1,6 @@
 # 🏗️ Modern Data Engineering with Medallion Architecture using DBT, Databricks, Spark, and Azure Cloud
 
-![Medallion Architecture](![System_Architecture.jpeg](assets/System_Architecture.jpeg)
-)
+![Medallion Architecture][(https://raw.githubusercontent.com/your-username/your-repository/main/path-to-image.png](https://github.com/sovit-nayak/medallion_project/blob/main/System_Architecture.jpeg))
 *Image Source: Wikipedia*
 
 ## 📌 Project Overview
