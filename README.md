@@ -1,4 +1,4 @@
-# 🏗️ Modern Data Engineering with Medallion Architecture using DBT, Databricks, Spark, and Azure Cloud
+# 🏗️ Modern Data Lakehouse with Medallion Architecture using Azure, Databricks, Spark & DBT
 
 ![Medallion Architecture](https://github.com/sovit-nayak/medallion_project/blob/main/System_Architecture.jpeg)
 *Image Source: Wikipedia*
@@ -70,6 +70,8 @@ Before setting up, ensure you have:
 
 ### **Step 2: Data Orchestration & Transformation**
 
+![ADF pipeline](https://github.com/sovit-nayak/medallion_project/blob/main/azure_data_factory_pipeline.png)
+
 6. **Building Azure Data Factory Pipelines**
    Pipelines are created in **ADF** to move data from source systems to ADLS. **Data movement, transformation, and scheduling** are automated using ADF’s data flow activities.
 7. **Setting Up Azure Databricks**
@@ -82,6 +84,8 @@ Before setting up, ensure you have:
     **ADF is integrated with Databricks** to trigger notebooks for data processing and transformation, ensuring an **automated ETL workflow**.
 
 ### **Step 3: DBT (Data Build Tool) Setup & Configuration**
+
+![Lineage Graph](https://github.com/sovit-nayak/medallion_project/blob/main/lineage_graph.png)
 
 11. **DBT Setup and Installation**
     DBT is installed and initialized to manage transformations and **create reusable data models**.
